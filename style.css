@@ -163,8 +163,6 @@ header .nav-list li a:hover{
     transform: scale(1.05);
 }
 
-/*port
-
 .card_img{
     width: 300px;
     height: 300px;
@@ -237,9 +235,6 @@ header .nav-list li a:hover{
     opacity: 1;
 
 }
-
-*/
-
 /*contacts*/
 
 
@@ -357,8 +352,6 @@ input{
     right: 0;
 }
 
-
-
 .site-footer
 {
   background-color:#1f1f1f;
@@ -432,22 +425,6 @@ input{
 .copyright-text
 {
   margin:0
-}
-@media (max-width:991px){
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px){
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
 }
 .social-icons
 {
@@ -592,6 +569,23 @@ header .nav-list{
     width: 120px;
     margin: 0 auto;
 }
+}
+
+@media (max-width:991px){
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px){
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
 }
 
 
