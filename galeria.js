@@ -1,22 +1,17 @@
-let imagens= document.querySelectorAll('.small_img');
-let modal = document.querySelector('.modal');
-let modalImg = document.querySelector('#modal_img');
-let btClose = document.querySelector('#bt_close');
-let srcVal="";
+const gM = document.querySelector(".galeria-modal");
+const iGM = document.querySelector(".galeria-modal img");
 
-for(let i =0; i<imagens.length;i++){
-    imagens[i].addEventListener('click',function(){
-        
-        srcVal = imagens[i].getAttribute('src');
-        modalImg.setAttribute('src', srcVal);
-        modal.classList.toggle('modal_active');
-    }
-    );
-    
+function fecharGaleria(){
+    gM.style.visibility = "hidden";
+    iGM.style.transform = "scale(0)";
+    document.documentElement.style.overflow = 'auto';
+    document.body.scroll = "yes";
 }
 
-
-btClose.addEventListener('click', function(){
-    modal.classList.toggle('modal_active');
+function abrirGaleria(src){
+    gM.style.visibility = "visible";
+    iGM.style.transform = "scale(1)";
+    iGM.src = src
+    document.documentElement.style.overflow = 'hidden';
+    document.body.scroll = "no";
 }
-);

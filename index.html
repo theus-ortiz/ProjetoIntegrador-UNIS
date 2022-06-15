@@ -42,10 +42,10 @@
                         </h2>
                        
                         <p >Temos o obejtivo de produzir grandes conteúdos visando a <span> qualidade </span> e <span> rapidez!</span></p>
-                         <button id="action-button">
+                         <a href="#serviço"><button id="action-button">
                             <i class="fa-solid fa-rocket"></i>
                             <span>Nosso Portfólio</span>
-                        </button>
+                        </button></a>
                     </div>
 
                     <div class="banner-cover">
@@ -60,42 +60,42 @@
                 </div>
             </div>
 
+
 <div class="divisor"></div>
+
 
         </section>
 
-        <div class="modal">
-            <div class="modal_content">
-                <img src="/components/images/01.jpg" id="modal_img">
+        
+            <div class="galeria-modal" onclick="fecharGaleria()">
+                <span>X</span>
+                <img src="" alt="">
             </div>
-            <span id="bt_close">&times;</span>
-        </div>
-        
-        
-            <div class="container">
-                <div class="row">
-                    <div class="card_img">
-                        <img src="/components/images/01.jpg" class="small_img">
+
+            <section id="serviço">
+
+                <div class="galeria">
+                    <div class="single-galeria w-2 h-2">
+                        <img src="./components/images/01.jpg" alt="" onclick="abrirGaleria('./components/images/01.jpg')">
                     </div>
-                    <div class="card_img">
-                        <img src="/components/images/02.jpg" class="small_img">
+                    <div class="single-galeria w-2">
+                        <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" onclick="abrirGaleria('https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60')">
                     </div>
-                    <div class="card_img">
-                        <img src="/components/images/03.jpg" class="small_img">
+                    <div class="single-galeria">
+                        <img src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" onclick="abrirGaleria('https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60')">
+                    </div>
+                    <div class="single-galeria h-2">
+                        <img src="https://images.unsplash.com/photo-1541562232579-512a21360020?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" onclick="abrirGaleria('https://images.unsplash.com/photo-1541562232579-512a21360020?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60')">
+                    </div>
+                    <div class="single-galeria">
+                        <img src="https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" onclick="abrirGaleria('https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YW5pbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60')">
+                    </div>
+                    <div class="single-galeria w-2">
+                        <img src="https://images.unsplash.com/photo-1580477667995-2b94f01c9516?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuaW1lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" onclick="abrirGaleria('https://images.unsplash.com/photo-1580477667995-2b94f01c9516?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuaW1lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60')">
                     </div>
                 </div>
-                <div class="row">
-                        <div class="card_img">
-                            <img src="/components/images/04.jpg" class="small_img">
-                        </div>
-                        <div class="card_img">
-                            <img src="/components/images/05.jpg" class="small_img">
-                        </div>
-                        <div class="card_img">
-                            <img src="/components/images/06.jpg" class="small_img">
-                        </div>
-                    </div>
-            </div>
+
+            </section>
 
 
 
@@ -131,57 +131,61 @@
 
             <div class="divisor"></div>
 
+
         </section>
+
 </main>
 
 
     <script src="galeria.js"></script>
 
 
-
-
     <footer class="site-footer">
+
         <div class="container">
+
           <div class="row">
             <div class="col-sm-12 col-md-6">
-              <h6>About</h6>
-              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+              <h6>Sobre</h6>
+              <p class="text-justify">JPN Producer <i>O MELHOR DA PRODURAÇÃO DE CONTEÚDO EM TEMPO RECORDE. </i> Nos temos como principal objetivo a sua producação de conteúdo para qualquer rede social, visando sempre a AGILIZADE na entraga e a EXCELÊNCIA em QUALIDADE. Usamos programas atualizados com profissionais que dominam as ferramentas afim de sermos eficazes na produção do conteúdo. Venha ser nosso pareceiro e trabalhar conosco.</p>
             </div>
   
             <div class="col-xs-6 col-md-3">
-              <h6>Quick Links</h6>
+              <h6>Links Rápidos</h6>
               <ul class="footer-links">
                 <li><a href="#home">Início</a></li>
                 <li><a href="sobre">Sobre</a></li>
-                <li><a href="serviço">Serviço</a></li>
-                <li><a href="contato">Contato</a></li>
+                <li><a href="#serviço">Serviço</a></li>
+                <li><a href="#contato">Contato</a></li>
               </ul>
             </div>
           </div>
           <hr>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-           <a href="#">JPN Prducer</a>.
-              </p>
-            </div>
+            <div class="row">
+                <div class="col8">
+                <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+            <a href="#">JPN Prducer</a>.
+                </p>
+                </div>
   
-            <div class="col-md-4 col-sm-6 col-xs-12">
+
+
+            <div class="col4">
               <ul class="social-icons">
-                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                <li><a class="instagram" href="https://www.instagram.com/jpnproducer/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="youtube" href="https://www.youtube.com/channel/UCHw_TJanoBlAfncYJHsNy1A"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a class="ttk" href="https://vm.tiktok.com/ZMNNHGrkb/?k=1"><i class="fa-brands fa-tiktok"></i></a></li>   
               </ul>
             </div>
           </div>
         </div>
+
   </footer>
 
 
-
 </body>
+
 
 </html>
