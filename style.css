@@ -161,22 +161,76 @@ header .nav-list li a:hover{
     transform: scale(1.05);
 }
 
+/*Sobre Mim*/
+
+#aboutME #about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  padding-top: 130px;
+  
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#about .about-desc {
+  padding: 20rem 2rem;
+  width: 100%;
+
+}
+
+#about .aboutME-desc h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 6.25rem;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#about .aboutME-desc p{
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+#about .aboutME-desc h2 span{
+  color: #b525da;
+}
+
+#about .aboutME-desc p span{
+  color: #b525da;
+}
+
+#about .aboutME-desc p span#yt{
+  color: red;
+}
+
+#about .aboutME-img{
+  margin: 0 auto;
+  width: 50%;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 
 
 /* PORTFÓLIO*/
 
 
 #our-port{
-  font-size: 100px;
+  font-size: 6.25rem;
   font-family: 'Oswald', sans-serif;
   display: flex;
-  margin-top: 30px;
-  z-index: 9900;
-
+  margin-top: 800px;
 
   justify-content: center;
   align-items: center;
   align-content: center;
+
 }
 
 #our-port span{
@@ -539,6 +593,7 @@ header{
   height: auto;
   padding: 2rem 0;
 }
+
     
     
 header .container{
@@ -576,6 +631,43 @@ header .nav-list{
   margin: 0 auto;
 }
 
+.divisor{
+  top: 1100px;
+}
+
+#aboutME #about{
+  display: grid;
+  grid-template-columns: 1fr;
+         
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+section#aboutME .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutME .aboutME-desc {
+  text-align: center;
+  font-size: 14px;
+  margin-left: 9px;
+  margin-right: 9px;
+
+}
+
+#aboutME .aboutME-desc h2 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+#aboutME .aboutME-img {
+  margin: 0 auto;
+  width: 100%;
+}
+
 
 #contato #banner-work{
   display: grid;
@@ -606,9 +698,17 @@ header .nav-list{
 
 #our-port{
   font-size: 80px;
-}
+  margin-top: 1200px;
 
 }
+}
+
+
+
+
+
+
+
 
 @media (max-width:991px){
   .site-footer [class^=col-]
@@ -624,5 +724,4 @@ header .nav-list{
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
-  }
-}
+  }}
