@@ -209,7 +209,8 @@ header .nav-list li a:hover{
 
 #about .aboutME-img{
   margin: 0 auto;
-  width: 50%;
+  width: 150%;
+  padding-top: 50px;
 
   justify-content: center;
   align-items: center;
@@ -225,7 +226,7 @@ header .nav-list li a:hover{
   font-size: 6.25rem;
   font-family: 'Oswald', sans-serif;
   display: flex;
-  margin-top: 800px;
+  margin-top: 1000px;
 
   justify-content: center;
   align-items: center;
