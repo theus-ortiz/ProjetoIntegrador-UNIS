@@ -5,6 +5,7 @@ function fecharGaleria(){
     gM.style.visibility = "hidden";
     iGM.style.transform = "scale(0)";
     document.documentElement.style.overflow = 'auto';
+    document.documentElement.style.overflowX = 'hidden';
     document.body.scroll = "yes";
 }
 
